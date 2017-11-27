@@ -1,0 +1,68 @@
+body * {
+  
+  box-sizing: border-box;
+  
+}
+
+/* Clearfix */
+.row::before,
+.row::after {
+  display: table;
+  content: '';
+}
+
+.row::after {
+  clear: both;
+}
+
+header {
+  background-color: #eebb44;
+  margin-bottom: 40px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #252525;
+}
+
+header h1 {
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+header p {
+  margin-top: 0.5em;
+}
+
+.card {
+  border: 1px solid #E5E5E5;
+  margin-bottom: 20px;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card-content p {
+  margin: 0.5em 0;
+}
+.col-4 {
+  
+  float: left;
+  width: 100%;
+}
+@media only screen and (min-width: 640px) {
+  
+ .col-4 {
+   width: 33.33%;
+ } 
+}
